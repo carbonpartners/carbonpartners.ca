@@ -26,11 +26,15 @@
   }
 
   .resume-content article > header {
-    @apply mb-4;
+    @apply flex justify-between items-start mb-4;
   }
 
   .resume-content article > header span {
     @apply italic text-gray-600;
+  }
+
+  .resume-content article > header small {
+    @apply p-2 ml-4 bg-gray-100 whitespace-nowrap;
   }
 
   .resume-content hr {
