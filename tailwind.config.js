@@ -12,8 +12,8 @@ module.exports = {
       gray: colors.gray,
       // zinc: colors.zinc,
       // neutral: colors.neutral,
-      primary: '#f6632d',
-      secondary: '#eeccb3',
+      primary: '#003c83',
+      secondary: '#FDB020',
       carbon: '#f8f8f8',
     }),
     container: {
