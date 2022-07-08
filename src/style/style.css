@@ -4,11 +4,6 @@
 
 
 @layer components {
-  .allan-content {
-    @apply flex-1 flex items-center justify-center;
-    background-color: #F8F8F8;
-  }
-
   .jessie {
     @apply flex-1;
     background-image: url('/images/jessie-inman.jpg');

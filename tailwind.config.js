@@ -14,6 +14,7 @@ module.exports = {
       // neutral: colors.neutral,
       primary: '#f6632d',
       secondary: '#eeccb3',
+      carbon: '#f8f8f8',
     }),
     container: {
       center: true,
