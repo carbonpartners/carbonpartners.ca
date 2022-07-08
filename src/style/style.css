@@ -5,9 +5,9 @@
 
 @layer components {
   .jessie {
-    @apply flex-1;
+    @apply flex-1 bg-cover;
     background-image: url('/images/jessie-inman.jpg');
-    background-position: 75% 48px;
+    background-position: 75% 80px;
   }
 
   .resume-content {
