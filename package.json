@@ -1,0 +1,13 @@
+{
+  "name": "carbonpartners",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/style/style.css -o ./htdocs/style.css --watch",
+    "build": "npx tailwindcss -i ./src/style/style.css -o ./htdocs/style.css --minify",
+    "deploy": "gh-pages -t -d htdocs"
+  },
+  "devDependencies": {
+    "gh-pages": "latest"
+  }
+}
