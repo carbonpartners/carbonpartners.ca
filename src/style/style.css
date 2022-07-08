@@ -9,5 +9,49 @@
     background-image: url('/images/jessie-inman.jpg');
     background-position: 75% 48px;
   }
+
+  .resume-content {
+    @apply container mx-auto bg-white rounded border-secondary;
+    border-top-width: 16px;
+    border-bottom-width: 16px;
+  }
+
+  .resume-content section {
+    @apply md:grid;
+    grid-template-columns: 240px 1fr;
+  }
+
+  .resume-content article:not(:last-of-type) {
+    @apply mb-8;
+  }
+
+  .resume-content article > header {
+    @apply mb-4;
+  }
+
+  .resume-content article > header span {
+    @apply italic text-gray-600;
+  }
+
+  .resume-content hr {
+    @apply my-6;
+  }
+
+  .resume-content h2 {
+    @apply text-2xl italic mb-4;
+  }
+
+  .resume-content h3 {
+    @apply text-2xl;
+    color: #0066AA;
+  }
+
+  .resume-content section p {
+    @apply text-base text-justify leading-7;
+  }
+
+  .resume-content section p:not(:last-child) {
+    @apply mb-6;
+  }
 }
 
